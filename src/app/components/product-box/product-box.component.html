@@ -1,0 +1,23 @@
+<!-- ngIf de aici ne asigura ca avem un product -->
+    <mat-card *ngIf="product" class="custom-card">
+      <div>
+        <img class="mb-1 mx-auto product-image" [src]="product.image" />
+        <div class="w-full">
+          <div>
+            <!-- <h5>Shoes</h5> -->
+            <p class="truncate hover:whitespace-normal"><strong>{{ product.title }}</strong></p>
+            <p class="truncate hover:whitespace-normal">{{ product.description }}</p>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-400">{{product.price}} lei</span>
+            <button class="custom-button">
+              <mat-icon class="custom-icon">shopping_cart</mat-icon>
+            </button>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  
+   
+
+

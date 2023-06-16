@@ -1,0 +1,76 @@
+.text-center {
+    text-align: center;
+  }
+  
+  .product-image {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-image:hover {
+    transform: scale(1.1);
+  }
+
+
+  .w-full {
+    width: 100%;
+  }
+  
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* .hover\:whitespace-normal:hover {
+    white-space: normal;
+  } */
+  
+  .text-400 {
+    font-weight: 500;
+  }
+  
+  button {
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 5px;
+    padding: 3px;
+    color: grey;
+    border: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .custom-card {
+    display: inline-block;
+    width: 300px;
+    padding: 1rem;
+  }
+
+
+
+
+
+  .my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .justify-between{
+    justify-content: space-between;
+  }

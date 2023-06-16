@@ -1,0 +1,17 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.title {
+    margin-right: 50px;
+}
+
+mat-toolbar {
+    background-color: #161616; /* Change to your desired background color */
+    color: #fff; /* Change to your desired text color */
+  }
+
+  mat-toolbar a {
+    margin-left: 10px;
+    padding-right: 10px;
+  }

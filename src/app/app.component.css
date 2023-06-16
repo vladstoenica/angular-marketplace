@@ -1,0 +1,16 @@
+.grid-list{
+    padding-left: 336px;
+    padding-right: 36px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.grid-container {
+    padding: 0 200px; /* Adjust the padding as needed */
+  }
+
+  .content-container{
+    background-color: rgb(245, 245, 245);
+  }
